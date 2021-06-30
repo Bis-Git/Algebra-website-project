@@ -1,0 +1,61 @@
+.footer {
+  position: fixed;
+}
+
+p{
+  text-shadow: 1px 1px black;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  
+}
+
+a>div :first-child{
+  padding-top: 40px;
+  color: yellow;
+}
+
+.circleNews{
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
+  border: 25px solid rgb(240, 240, 240);
+  animation: enlarge 1s normal;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 300px;
+}
+
+@keyframes enlarge{
+  0% {
+    transform: scale(.1)
+  }
+}
+
+#news1{
+  background-image: url('/_Shared/Materijali/img/novost1.jpg');
+}
+#news2{
+  background-image: url('/_Shared/Materijali/img/novost2.jpg');
+}
+#news3{
+  background-image: url('/_Shared/Materijali/img/novost3.jpg');
+}
+
+@media (max-width: 768px){
+  .circleNews{
+    margin-bottom: 15px;
+    height: 250px;
+    width: 250px;
+  }
+  p{
+    font-size: small;
+  }
+  .footer{
+    position: relative;
+  }
+}
+
+
+.last{
+  padding-top: 35% !important;
+}

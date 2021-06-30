@@ -1,0 +1,71 @@
+.footer {
+  position: fixed;
+}
+
+#nazivKolegija{
+  margin-top: 10%;
+  display: block;
+  animation: elvisSlideLeft 1s normal;
+}
+
+#inputKolegij{
+  border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+    animation: elvisSlideLeft 1s normal ;
+}
+
+table{
+  margin-top: 10%;
+  width: 100%;
+}
+
+.tableHead{
+  visibility: hidden;
+
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+#tableFooter{
+  visibility: hidden;
+
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+
+.tableHead{
+  font-weight: bold;
+}
+.btn{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(214, 12, 12);
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover{
+  color: white;
+  background-color: rgb(150, 29, 29);;
+}
+
+@keyframes elvisSlideLeft{
+  0%{
+    transform: translateX(200%);
+  }
+}
+
+@media (max-width: 768px){
+  #inputKolegij{
+    animation: none;
+  }
+  #nazivKolegija{
+    animation: none;
+  }
+}
+

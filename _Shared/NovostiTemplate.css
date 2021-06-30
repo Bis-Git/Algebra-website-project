@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  font-family: "Poppins","Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.navbar img {
+  padding: 0 15px;
+  width: 100px;
+  height: auto;
+}
+
+.navbar-nav li {
+  padding: 0 0.3rem;
+}
+
+.navbar-nav a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar-nav a:hover {
+  color: yellow !important;
+}
+
+i {
+  color: orange;
+}
+
+
+
+.headerImg {
+  position: relative;
+  overflow: hidden;
+  height: 25em;
+}
+
+.headerImg img {
+  animation: drop-animation 1s normal;
+
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 90px;
+}
+
+.headerTitle {
+  animation: drop-animation 1s normal;
+
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  color: white;
+  top: 10%;
+}
+
+.title h1{
+  animation: uplift-animation 1s normal;
+
+  border-bottom: 2px solid orange;
+  padding-bottom: 15px;
+  padding: .5em 0;
+}  
+
+p{
+  animation: fadeIn 2s normal;
+
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 4em 0;
+}
+
+
+.footer {
+  position: relative;
+  overflow: hidden;
+  height: 30%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.footerQuote {
+  text-transform: uppercase;
+  position: relative;
+  color: white;
+  top: 40%;
+}
+
+.footerQuote #zaiskri {
+  color: rgb(136, 0, 0);
+}
+
+@media (max-width: 768px){
+  .footerQuote h1{
+    font-size: small;
+  }
+}
+
+
+
+@keyframes uplift-animation {
+  0% {
+    transform: translateY(70%);
+  }
+}
+@keyframes drop-animation {
+  0% {
+    transform: translateY(-100%);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}

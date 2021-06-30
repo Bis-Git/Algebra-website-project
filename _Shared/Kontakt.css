@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  font-family: "Poppins","Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.kontakt{
+  display: none;
+}
+
+
+label{
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+[type=text], [type=email], select{
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+}
+
+
+button{
+  color: white;
+  width: 100px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 15px;
+}

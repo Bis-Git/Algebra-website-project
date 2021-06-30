@@ -1,0 +1,38 @@
+
+.galerija{
+  width: 100%;
+  text-align: center;
+}
+
+.galerija>div{
+  display: inline-block;
+  overflow: hidden;
+
+  border-radius: 10px;
+  width: 450px;
+  margin: 15px 15px;
+  border: 2px solid white;
+
+  transition: ease-in .2s;
+}
+
+.galerija img{
+  width: 450px;
+  opacity: .6;
+
+  transition:  ease-in .2s;
+}
+
+.galerija img:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.galerija>div:hover{
+  box-shadow: 5px 5px 15px 10px #999;
+}
+
+video{
+  display: block;
+  margin: 10px auto;
+}

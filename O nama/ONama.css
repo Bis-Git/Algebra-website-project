@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+html{
+  scroll-behavior: smooth;
+}
+
+#naseVrijednosti,
+#povijest,
+#algebraGrupa,
+#kakoDoNas {
+  height: 90px;
+}
+
+.headerImg {
+  animation: drop-animation 1s normal;
+
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+
+}
+
+.headerImg img {
+  transform: translateY(-30%);
+  position: absolute;
+  width: 100%;
+}
+
+
+.qoute {
+  background-color: rgb(241, 241, 241);
+  padding: 3em 0;
+}
+
+.qoute p {
+  font-family: "Satisfy";
+  padding: 1em 0;
+}
+
+.animation{
+  animation: fadeIn 2.5s normal;
+}
+
+.ancor{
+  display: block;
+  position: relative;
+
+}
+
+
+.infoMsg {
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 1%;
+  margin: 1px 5px;
+  height: 430px;
+}
+
+.infoMsg * {
+  padding-top: 15px;
+}
+.infoMsg p {
+  border-top: 1px solid rgb(201, 201, 201);
+}
+
+#povijest span {
+  color: rgb(76, 76, 247);
+}
+
+.section .subtitle {
+  font-weight: bold;
+  padding: 50px 0;
+  color: purple;
+}
+
+#algebraGrupa h6 {
+  border-bottom: 1px solid rgb(201, 201, 201);
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: bold;
+  height: 80px;
+}
+
+#kakoDoNas .row{
+  padding: 50px 0;
+}
+
+.bgcMap {
+  background-image: url("/_Shared/Materijali/img/kakoDoNas.jpg");
+  background-size: cover;
+}
+
+.info {
+  border: 1px solid rgb(201, 201, 201);
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px 5px;
+}
+
+.bgcMap i{
+  color: rgb(82, 155, 223);
+}
+
+.bgcMap h4{
+  font-weight: bold;
+  padding-top: 3%;
+}
+.bgcMap p{
+  padding-bottom: 3%;
+}
+
+
+#logo {
+  height: 5em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.ec-council {
+  background-image: url("/_Shared/Materijali/img/EC-Council.png");
+}
+.cisco {
+  background-image: url("/_Shared/Materijali/img/1024px-Cisco_academy.png");
+}
+.vue {
+  background-image: url("/_Shared/Materijali/img/VUElogo.jpg");
+}
+.autodesk {
+  background-image: url("/_Shared/Materijali/img/autodesk.png");
+}
+.adobe {
+  background-image: url("/_Shared/Materijali/img/auth_training_cntr.gif");
+}
+.msgold {
+  background-image: url("/_Shared/Materijali/img/ms_novo.png");
+}
+.redHat {
+  background-image: url("/_Shared/Materijali/img/redhatLogo.png");
+}
+.oracle {
+  background-image: url("/_Shared/Materijali/img/oracleLogo.png");
+}
+
+
+@keyframes drop-animation {
+  0% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}
